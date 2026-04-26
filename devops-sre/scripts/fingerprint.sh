@@ -1,4 +1,4 @@
-#!/data/data/com.termux/files/usr/bin/bash
+#!/usr/bin/env bash
 echo "=== System Fingerprint ==="
 echo "OS: $(uname -a)"
 if [ -f /etc/os-release ]; then
